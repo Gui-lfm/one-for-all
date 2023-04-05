@@ -1,5 +1,5 @@
 SELECT 
-    u.username AS 'pessoa_usuária',
+    u.username AS 'pessoa_usuaria',
     COUNT(m.music_id) AS 'musicas_ouvidas',
     ROUND(SUM(min.length_seconds) / 60, 2) AS 'total_minutos'
 FROM
